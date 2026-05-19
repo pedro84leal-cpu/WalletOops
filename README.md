@@ -29,6 +29,7 @@ Premite sincronização com mais contas e formar uma grupo onde a informação �
 | [Supabase](https://supabase.com/) | Backend como serviço (base de dados, autenticação) |
 
 ---
+<img width="377" height="673" alt="image" src="https://github.com/user-attachments/assets/d016de11-7663-42bf-ac25-8e074c968b61" />
 
 ## 🚀 Começar
 
@@ -47,4 +48,4 @@ git clone https://github.com/pedro84leal/wallet-oops.git
 cd wallet-oops
 
 
-<img width="377" height="673" alt="image" src="https://github.com/user-attachments/assets/d016de11-7663-42bf-ac25-8e074c968b61" />
+
