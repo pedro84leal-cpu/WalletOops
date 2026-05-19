@@ -1,4 +1,4 @@
-import styles from '../Menu/menu.module.css'
+import styles from '../menu/menu.module.css'
 import { NavLink } from 'react-router-dom'
 import Adicionar from '../botao-adicionar/adicionar';
 import Modal from '../modal/modal.jsx'
