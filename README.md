@@ -14,7 +14,7 @@ Premite sincronização com mais contas e formar uma grupo onde a informação �
 - 🏷️ **Categorização** — Organiza despesas por categorias personalizáveis
 - 📊 **Gráficos e estatísticas** — Visualiza para onde vai o teu dinheiro
 - 🌐 **Dados na nuvem** — Sincronização e backup com Supabase
-- 📱 **Responsivo** — Funciona em desktop e dispositivos móveis
+- 📱 App para dispositivos móveis.
 
 ---
 
@@ -45,3 +45,6 @@ Premite sincronização com mais contas e formar uma grupo onde a informação �
 ```bash
 git clone https://github.com/pedro84leal/wallet-oops.git
 cd wallet-oops
+
+
+<img width="377" height="673" alt="image" src="https://github.com/user-attachments/assets/d016de11-7663-42bf-ac25-8e074c968b61" />
