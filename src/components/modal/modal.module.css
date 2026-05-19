@@ -1,0 +1,61 @@
+.overlay {
+
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.631);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    z-index: 100;
+    animation: fadeIn 0.2s ease;
+    overflow-y: auto;
+}
+
+.modal {
+
+    background: rgba(214, 247, 234, 0.705);
+    border-radius: 16px;
+    padding: 24px;
+    width: 90%;
+    max-width: 400px;
+    position: relative;
+    z-index: 101; 
+    overflow-y: auto;
+    animation: slideUp 0.25s ease;
+    margin: 20px auto;
+}
+
+
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { 
+        opacity: 0;
+        transform: translateY(20px); 
+    }
+    to { 
+        opacity: 1;
+        transform: translateY(0); 
+    }
+}
+
+.fechar {
+
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: rgb(39, 39, 35);
+}
+
+.closeIcon {
+
+    width: 35px;
+    height: 35px;
+}   

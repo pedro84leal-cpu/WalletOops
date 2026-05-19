@@ -1,0 +1,221 @@
+.content {
+    
+    width: 100%;
+    min-height: 100vh;
+    background-color: #e0f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px 15px;
+    padding-bottom: 80px;
+}
+
+.btnVoltar {
+
+    background: none;
+    border: none;
+    color: rgb(115, 115, 115);
+    font-size: 0.9rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    padding: 5px 0;
+}
+
+.btnVoltar:hover {
+    color: #333;
+}
+
+
+/* HEADER */
+.header {
+    
+    background-color: rgb(249, 249, 249);
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.252);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+    gap: 5px;
+}
+
+.mesSeletor {
+
+    font-size: 0.9rem;
+    color: rgb(115, 115, 115);
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+}
+
+.dropdown {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    z-index: 100;
+    min-width: 130px;
+}
+
+.dropdownItem {
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+}
+
+.dropdownItem:hover {
+    background-color: #f0f0f0;
+}
+
+.totais {
+    display: flex;
+    gap: 30px;
+    border-top: 1px solid #eee;
+    padding-top: 12px;
+}
+
+.totaisLabel {
+    font-size: 0.8rem;
+    color: rgb(115, 115, 115);
+    margin-bottom: 4px;
+}
+
+/* CARDS */
+.card {
+
+    background-color: rgb(249, 249, 249);
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.252);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.titulo {
+    color: rgb(115, 115, 115);
+    font-size: 0.9rem;
+    font-weight: 600;
+}
+
+/* MOVIMENTOS */
+.cardMovimento {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 5px 0;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.cardMovimentos {
+    background-color: rgb(249, 249, 249);
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px 1px rgba(0, 0, 0, 0.252);
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.cardMovimento:last-child {
+    border-bottom: none;
+}
+
+.icone_categ {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.containerIcone {
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 8px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerIcone img {
+    width: 25px;
+    height: 25px;
+}
+
+.subTitulo {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: #333;
+}
+
+/* GRÁFICO */
+.graficoCont {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+}
+
+.legenda {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    width: 55%;
+}
+
+.legendaItem {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 12px;
+}
+
+.legendaCor {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    flex-shrink: 0;
+}
+
+.legendaNome {
+    flex: 1;
+    color: #333;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    min-width: 0;  /* isto é essencial em flex para o texto quebrar */
+}
+
+.legendaValor {
+    color: #333;
+    font-weight: bold;
+}
+
+.legendaPerc {
+    color: #888;
+    width: 35px;
+    text-align: right;
+}
+
+/* CORES */
+.positivo {
+    color: #2ecc71;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
+
+.negativo {
+    color: #e74c3c;
+    font-size: 0.85rem;
+    font-weight: 600;
+}
