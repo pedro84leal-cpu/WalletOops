@@ -1,4 +1,4 @@
-import styles from '../Modal/modal.module.css'
+import styles from './modal.module.css'
 import close from '../../images/close.png'
 
 function Modal({ children, onClose }) {
